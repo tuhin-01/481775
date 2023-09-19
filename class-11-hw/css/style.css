@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: block;
+}
+nav ul li a{
+    text-transform:uppercase;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    display:inline-block;
+    padding: 25px 45px 36px 35px;
+    float: right;
+    font-size: 25px;
+    
+}
+nav ul li{
+    margin-right: 50px;
+    
+}
+.logo{
+    height: 7%;
+    width: 7%;
+    margin-left: 50px ;
+}
+li a:hover{
+    background-color: rgb(150, 139, 139);
+    color: white;
+    display: inline-block;
+}
+.text-bg{
+    height: 450px;
+    width: 100%;
+    background-image: url("../media/desktop-wallpaper-white-abstract-black-and-white-abstract-lines.jpg");
+    background-size: cover;
+    align-items: center;
+}
+div div .add-img{
+    height: 28%;
+    width: 28%;
+    float: right;
+    border-radius: 6%;
+    margin-top: 28px;
+    margin-left: 40px;
+    float: left;
+
+}
+.content-1{
+    width: 80%;
+    height: 450px;
+    color: white;
+    
+    padding-top: 120px;
+    
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 17px;
+}
+.action__btns button{
+    color: azure;
+    margin-top: 30px;
+    background-color: rgb(79, 192, 198);
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px 30px;
+    border: 5px solid rgb(59, 95, 103);
+}
+.header-section{
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+.content-section{
+    width: 100%;
+    height: 300px;
+    
+}
+.content-left{
+    width: 25%;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    justify-content: center;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.content-right{
+    width: 25%;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: right;
+    font-size: 35px;
+    text-align: center;
+}
+.content-center{
+    text-align: center;
+    width: 25%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.icons{
+    height: 50px;
+    width: 50px;
+}
+.bt{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: gray;
+    color: white;
+    border: 20px;
+}
+.content-right:hover{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+
+}
+.content-left:hover{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+
+}
+.content-center:hover{
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+
+}
+.bt:hover{
+    background-color: green;
+    color: white;
+    
+}
+.service{
+    color: white;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(87, 1, 208);
+    text-align: center;
+    
+}
+.content1{
+    font-size: 20px;
+    width: 40%;
+    padding-top: 40px;
+    float: left;
+    padding-left: 50px;
+    list-style: square;
+    
+}
+.content2{
+    font-size: 20px;
+    width: 40%;
+    float: right;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.service h1{
+    font-size: 60px;
+}
+.horizontal-row{
+    width: 1px;
+    height: 120px;
+    background-color: azure;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
